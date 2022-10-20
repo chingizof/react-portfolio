@@ -1,9 +1,9 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import self from "../img/photo.jpg"
+import mock1 from "../img/mnf.png"
+import mock2 from "../img/kazakh.png"
+import mock3 from "../img/evision.png"
+import mock4 from "../img/compound.png"
+import mock5 from "../img/flywheel.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -23,8 +23,8 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
+    firstName: "Chingiz",
+    lastName: "Tuleubayev",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -41,11 +41,11 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "1 Year student at Lehigh"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "chingizof@gmail.com"
         }
     ],
     socials: [
@@ -55,17 +55,17 @@ export const info = {
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://instagram.com/tuleuchina",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/chingizof",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/chinkz/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
@@ -78,62 +78,62 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Chingiz. I'm a software engineer studying CompSci at Lehigh. I enjoy long walks on the beach, playing poker, and I believe Quantum Computing is a future of the world. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['Go', 'React', 'Node.js', 'Firebase', 'MondoDB', 'Heroku', 'Python'],
+            exposedTo: ['Quantum Computing', 'Machine Learning', 'Web 3', 'Solidity']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'sports',
             emoji: '📖'
         },
         {
-            label: 'theater',
+            label: 'dancing',
             emoji: '🎭'
         },
         {
-            label: 'movies',
+            label: 'math',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'blogging',
+            emoji: '📖'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Math and Furious",
+            live: "https://mathandfurious.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/chingizof/math-and-furious", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Kazakh Poems Guesser",
+            live: "https://kazakh-poems-quiz.vercel.app/",
+            source: "https://github.com/chingizof/kazakh-poems-server",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "E-Vision",
+            live: "https://github.com/DulatKuntu/bilim",
+            source: "https://github.com/DulatKuntu/bilim",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Investment Visualization",
+            live: "https://compound-visualization.vercel.app/",
+            source: "https://github.com/chingizof/compound-visualization",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Catch Star - sound game",
+            live: "https://flywheel-nu.vercel.app/",
+            source: "https://github.com/chingizof/flywheel-lehigh",
             image: mock5
         }
     ]
