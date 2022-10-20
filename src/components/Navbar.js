@@ -19,7 +19,7 @@ const links = [
     {
         name: info.initials,
         type: 'initials',
-        to: '/',
+        to: '/cv',
         active: 'home'
     },
     {
